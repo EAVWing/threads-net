@@ -1,7 +1,11 @@
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
 
 Unofficial and reverse-engineered Threads ([threads.net](https://www.threads.net/@zuck)) Python API wrapper. 
-Supports read and write capabilities.
+
+**Created for academic purposes and is not intended to be used in real software. Usage of it might violate `Instagram` 
+and `Threads` terms. In addition to breaching the terms of service and interfering with Meta’s business expectations
+and interests, your activities may violate other federal and state laws. See Computer Fraud and Abuse Act, 18 U.S.C. 
+§ 1030; and the California Comprehensive Computer Data Access and Fraud Act, Cal. Penal Code § 502(c).**
 
 [![](https://github.com/dmytrostriletskyi/threads-net/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmytrostriletskyi/threads-net/actions/workflows/main.yaml)
 [![](https://img.shields.io/github/release/dmytrostriletskyi/threads-net.svg)](https://github.com/dmytrostriletskyi/threads-net/releases)
@@ -14,7 +18,6 @@ Supports read and write capabilities.
 Table of content:
 
 * [Disclaimer](#disclaimer)
-* [Roadmap](#roadmap)
 * [Getting started](#getting-started)
   * [How to install](#how-to-install)
   * [Examples](#examples)
@@ -70,28 +73,10 @@ Table of content:
 
 ## Disclaimer
 
-* As `Threads` is backed by `Instagram`, those are coupled in terms of `APIs`. For example, there is a way to fetch a
-  `Threads` user or a thread from both `Threads` and `Instagram` `APIs`. But there are unique `API` endpoints that 
-  exist only in one of the `APIs`. For instance, to create a thread, there is only `Instagram API` endpoint.
-* This project is unofficial and reverse-engineered, it means that:
-  * The library would be pretending being a mobile phone or a web user (via proper `HTTP` headers and other things).
-    Thus, you might face `rate limits` (because pretending is never ideal), your `IP` marked as suspicious and even 
-    your `Threads` and/or `Instagram` account might be suspended if you mess up with logining or sending too much
-    requests. 
-  * `Threads` and `Instagram` `APIs` are not provided as public `API` and developed to be used internally
-    (`Meta'`s `back-end` developers made it only for `Meta'`s `front-end/mobile` developers) without any intention to
-    reveal externally in any way. So, they would not inform the community about any changes they are going to do or done
-    and would not support backward compatibility. Thus, expect `APIs` unstable work sometimes and therefore the library,
-    and be patient waiting for the fixes.
-
-## Roadmap
-
-Check what is already done in the table of content above, below the only things to be done are placed: 
-
-- [ ] Pagination for all methods responding with a list of records
-- [ ] Get notifications about new threads
-- [ ] Manage auth for accounts with the enabled 2FA
-- [ ] Manage auth for accounts required a challenge
+**Created for academic purposes and is not intended to be used in real software. Usage of it might violate `Instagram` 
+and `Threads` terms. In addition to breaching the terms of service and interfering with Meta’s business expectations
+and interests, your activities may violate other federal and state laws. See Computer Fraud and Abuse Act, 18 U.S.C. 
+§ 1030; and the California Comprehensive Computer Data Access and Fraud Act, Cal. Penal Code § 502(c).**
 
 ## Getting started
 
